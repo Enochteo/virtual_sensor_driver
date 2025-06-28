@@ -1,0 +1,1 @@
+savedcmd_/home/eowoade/kernel_virtual_sensor/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/eowoade/kernel_virtual_sensor/Module.symvers -T /home/eowoade/kernel_virtual_sensor/modules.order -i Module.symvers -e 

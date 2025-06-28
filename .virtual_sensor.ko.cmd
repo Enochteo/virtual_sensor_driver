@@ -1,0 +1,1 @@
+savedcmd_/home/eowoade/kernel_virtual_sensor/virtual_sensor.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/eowoade/kernel_virtual_sensor/virtual_sensor.ko /home/eowoade/kernel_virtual_sensor/virtual_sensor.o /home/eowoade/kernel_virtual_sensor/virtual_sensor.mod.o
