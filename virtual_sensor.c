@@ -77,7 +77,7 @@ static ssize_t dev_read(struct file* filep, char* buffer, size_t len, loff_t* of
 	int fake_value;
 	static char sensor_data[64];
 
-	if (*offset >= 0) 
+	if (*offset > 0) 
  		return 0;
 
 	get_random_bytes(&fake_value, sizeof(fake_value));
