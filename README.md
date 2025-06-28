@@ -31,7 +31,6 @@ sudo rmmod virtual_sensor
 make clean
 ```
 
-## Author
 Enoch Owoade – Engineering Technology @ Grambling State University
 
 
