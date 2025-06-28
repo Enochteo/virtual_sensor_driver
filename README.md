@@ -20,3 +20,18 @@ cat /dev/virtual_sensor
 Sensor reading: 42
 ```
 
+### Read from C Program (read_sensor.c)
+```bash
+gcc read_sensor.c -o read_sensor
+./read_sensor
+```
+### Unload
+```bash
+sudo rmmod virtual_sensor
+make clean
+```
+
+## Author
+Enoch Owoade – Engineering Technology @ Grambling State University
+
+
