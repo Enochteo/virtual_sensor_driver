@@ -7,3 +7,16 @@ A simple Linux kernel module that registers a character device (`/dev/virtual_se
 - Dynamic sensor values with each read
 - Kernel-to-user communication using `copy_to_user()`
 - User-space C program to read sensor values
+
+## Build and Test
+
+```bash
+make
+sudo insmod virtual_sensor.ko
+cat /dev/virtual_sensor
+```
+## Sample Output
+```bash
+Sensor reading: 42
+```
+
