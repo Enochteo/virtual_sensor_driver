@@ -1,11 +1,11 @@
 # Virtual Sensor Linux Kernel Module
 
-A simple Linux kernel module that registers a character device (`/dev/virtual_sensor`) and simulates dynamic sensor readings using kernel-space random data.
+A simple Linux kernel module that registers a character device (/dev/virtual_sensor) and simulates dynamic sensor readings using kernel-space random data.
 
 ## Features
-- Character device driver with auto `/dev/virtual_sensor` creation
+- Character device driver with auto "/dev/virtual_sensor" creation
 - Dynamic sensor values with each read
-- Kernel-to-user communication using `copy_to_user()`
+- Kernel-to-user communication using "copy_to_user()"
 - User-space C program to read sensor values
 
 ## Build and Test
